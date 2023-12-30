@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 int main(void){
-	int basamak[4];//=(int)malloc(sizeof());
+	int basamak[4];
 	int i, toplam, yuz, on, bir;
 	
 	printf("Uc basamakli bir sayinizin tamamini daha sonra da ");
