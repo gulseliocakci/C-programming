@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(void){
+	struct ogrenci{
+		char isim[15];
+		int yas;
+		float ortalama;
+		char cinsiyet;
+	};
+	struct ogrenci kisi={"Elif",19,3.5,'K'};
+	
+	printf("ogrencinin adi: %s\nyasi: %d\nortalamasi: %.2lf\ncinsiyeti: %c",kisi.isim,kisi.yas,kisi.ortalama,kisi.cinsiyet);
+	
+	
+	return(0);
+}
